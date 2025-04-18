@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 17px 11%;
+  border-bottom: 1px solid #f7f9fb;
+  transition: all 0.45s ease;
+  height: 100px;
+}
+
+.logo img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.logo h3 {
+  color: black;
+  font-size: 40px;
+  position: relative;
+  left: 100px;
+  top: -50px;
+  padding-left: 10px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  font-size: 22px;
+  color: black;
+  font-weight: 400;
+  padding: 10px 25px;
+  margin: 0 5px;
+  background: transparent;
+  border-radius: 30px;
+  transition: all 0.45s ease;
+}
+
+.navbar a:hover {
+  background: #d4d4d8;
+}
+
+.navbar a:active {
+  background: #b1b2b3;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons i {
+  height: 30px;
+  width: 30px;
+  background: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: black;
+  font-size: 22px;
+  margin-right: 25px;
+  margin-left: 10px;
+  transition: all 0.45s ease;
+}
+
+.icons i :hover {
+  transform: scale(0.9);
+}
+
+#menu-icon {
+  color: var(--other-color);
+  font-size: 33px;
+  z-index: 1001;
+  cursor: pointer;
+  display: none;
+}
+
+.container {
+  width: auto;
+  max-width: 90vw;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h2 {
+  word-spacing: 7px;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.allcards {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: grid;
+  border: 1px solid rgb(250, 247, 247);
+  margin: 10px;
+  width: 280px;
+  height: 420px;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background: #f6f6f6;
+}
+.card .cardbtn {
+  width: 200px;
+  border: 1px solid blue;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.cardbtn:hover {
+  background-color: blue;
+  color: white;
+  letter-spacing: 3px;
+  border: 1px solid grey;
+}
+
+.line1 {
+  background-color: rgb(30, 235, 12);
+  height: 30px;
+  width: 1px;
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+.line2 {
+  background-color: rgb(255, 51, 0);
+  height: 30px;
+  width: 1px;
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+.card h3 {
+  margin-top: 1px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+.card p {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.socials {
+  background: #000;
+  color: #fff;
+  padding: 50px;
+}
+.toor {
+  display: flex;
+  column-gap: 10px;
+}
+.line3 {
+  background-color: rgb(0, 170, 255);
+  height: 35px;
+  width: 1px;
+  padding-left: 5px;
+}
+.toor h3 {
+  font-size: 25px;
+}
+.Cinfo P {
+  font-size: 18px;
+  color: #d4cfcf;
+  padding: 10px;
+}
+.Cinfo h5 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.inform {
+  display: inline-block;
+}
+
+.informe {
+  display: flex;
+}
+
+.informe i {
+  height: 60px;
+  width: 60px;
+  background: #adadad;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  color: #000;
+  font-size: 30px;
+  margin-right: 25px;
+  margin-left: 10px;
+  transition: all 0.45s ease;
+}
+
+.informa {
+  padding: 10px;
+}
+
+.informa P {
+  padding-top: 15px;
+}
+.follow i {
+  height: 30px;
+  width: 30px;
+  background: #c9c8c8;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  color: #000;
+  font-size: 22px;
+  margin-right: 25px;
+  margin-left: 10px;
+  transition: all 0.45s ease;
+}
+.end-text {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .allcards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #menu-icon {
+    display: initial;
+    height: 50px;
+    width: 50px;
+    background: #f7f9fb;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: black;
+    font-size: 32px;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 300px;
+    height: 125vh;
+    background: #fcfcfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 30px;
+    transition: all 0.45s ease;
+  }
+  .navbar a {
+    display: block;
+    margin: 1.1rem 0;
+  }
+
+  .navbar.open {
+    right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .allcards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
