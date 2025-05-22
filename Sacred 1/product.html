@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+      integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style1.css" />
+  </head>
+  <body class="">
+    <div class="container">
+      <header>
+        <div class="title">PRODUCT LIST</div>
+        <div class="search-box">
+          <input type="search" placeholder="search" />
+        </div>
+        <div class="icon-cart">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1); transform: msFilter"
+          >
+            <path
+              d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"
+            ></path>
+            <circle cx="10.5" cy="19.5" r="1.5"></circle>
+            <circle cx="16.5" cy="19.5" r="1.5"></circle>
+          </svg>
+          <span>0</span>
+        </div>
+      </header>
+      <div class="listproduct" id="hide">
+        <div class="item">
+          <img src="img/prdt1.jpg" alt="" />
+          <h2>NAME PRODUCT</h2>
+          <div class="price">#5000</div>
+          <!-- <h6>S</h6>
+            <h6>L</h6>
+            <h6>XL</h6>
+            <h6>XXL</h6> -->
+          <div class="size">
+            <select name="id">
+              <option value="">choose...</option>
+              <option value="S">S</option>
+              <option value="L">L</option>
+              <option value="xL">xL</option>
+              <option value="xxL">xxL</option>
+            </select>
+          </div>
+          <button class="addtocart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart">
+        <div class="item">
+          <div class="image">
+            <img src="img/prdt1.jpg" alt="" />
+          </div>
+          <div class="name">NAME</div>
+          <div class="totalPrice">#5000</div>
+          <div class="quantity">
+            <span class="minus"> '- '</span>
+            <span>1</span>
+            <span class="plus"> '+ '</span>
+          </div>
+          <div class="remove">X</div>
+        </div>
+      </div>
+      <div class="total-amount">
+        <h5>Total</h5>
+        <div class="cart-Total">₦0.00</div>
+      </div>
+      <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">
+          <a href="checkout.html"> CHECK OUT </a>
+        </button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

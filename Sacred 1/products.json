@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "Sacred Beanie",
+        "price": 100,
+        "image": "img/prdt1.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Sacred Beanie",
+        "price": 800,
+        "image": "img/prdt2.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Sacred Beanie",
+        "price": 500,
+        "image": "img/prdt3.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Sacred Beanie",
+        "price": 200,
+        "image": "img/prdt4.jpg"
+    },
+
+    {
+        "id": 5,
+        "name": "Sacred Beanie",
+        "price": 900,
+        "image": "img/prdt5.jpg"
+    },
+
+    {
+        "id": 6,
+        "name": "Sacred shirt",
+        "price": 700,
+        "image": "img/prdt6.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "Sacred Bag",
+        "price": 400,
+        "image": "img/prdt7.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Sacred Beanie",
+        "price": 500,
+        "image": "img/prdt8.jpg"
+    }
+
+
+]
